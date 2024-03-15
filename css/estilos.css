@@ -1,0 +1,133 @@
+.contenedor1
+{
+    
+    margin: 10px;
+    background-color: red;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    padding: 10px;
+}
+.caja1
+{
+    
+    margin: 10px;
+    background-color: goldenrod;
+    grid-column: 1/5;
+    
+}
+.caja2
+{
+    margin: 10px;
+    background-color: goldenrod;
+    grid-column: 1/3;
+}
+.caja3
+{
+    margin: 10px;
+    background-color: goldenrod;
+    height: 40px;
+}
+
+.caja4
+{
+    margin: 10px;
+    background-color: goldenrod;
+    height: 40px;
+}
+.caja5
+{
+    margin: 10px;
+    background-color: goldenrod;
+    height: 40px;
+}
+.caja6
+{
+    margin: 10px;
+    background-color: goldenrod;
+    grid-column: 2/5;
+    height: 40px;
+}
+.caja7
+{
+    margin: 10px;
+    background-color: goldenrod;
+    grid-column: 1/4;
+    grid-row: 4/6;
+}
+
+.caja8
+{
+    margin: 10px;
+    background-color: goldenrod;
+}
+.caja9
+{
+    margin: 10px;
+    background-color: goldenrod;
+}
+.contenedor2
+{
+    margin: 10px;
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+}
+.caja10
+{
+    flex-grow: 1;
+    margin: 10px;
+    background-color: goldenrod;
+}
+.contenMin
+{
+    margin: 10px;
+    flex-grow: 1;
+    display: flex;
+    background-color: brown;
+    flex-direction: column;
+}
+.contenMin2
+{
+
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+}
+.caja11
+{
+    flex-grow: 1;
+    margin: 10px;
+    background-color: goldenrod;
+}
+.caja12
+{
+    flex-grow: 1;
+    margin: 10px;
+    background-color: goldenrod;
+}
+.caja13
+{
+    flex-grow: 1;
+    margin: 10px;
+    background-color: goldenrod;
+}
+.caja14
+{
+    flex-grow: 1;
+    margin: 10px;
+    background-color: goldenrod;
+}
+.contenedor3
+{
+    margin: 10px;
+    padding: 10px;
+    background-color: forestgreen;
+    display: flex;
+    flex-direction: row;
+}
+.minCon3
+{
+    flex-grow: 1;
+    padding: 10px;
+}
